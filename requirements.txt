@@ -5,3 +5,5 @@ httpx
 setuptools
 sys
 os
+pytest
+pytest-cov

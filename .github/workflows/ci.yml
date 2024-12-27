@@ -24,8 +24,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements-dev.txt
+        pip install -r requirements.txt
 
     - name: Run tests
       run: |
-        pytest --maxfail=1 --disable-warnings -q
+        pytest tests/tests_crud.py
