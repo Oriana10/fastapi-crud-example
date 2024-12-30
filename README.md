@@ -10,17 +10,17 @@ Este es un ejemplo de aplicación CRUD usando FastAPI, SQLAlchemy y SQLite. Incl
 
 ## Cómo usar
 
-´´´cmd
+```bash
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 pytest tests/tests_crud.py
-´´´
+```
 
 ## Estructura de Archivos
 
-´´´cmd
+```
 fastapi-crud-example/
 ├── app/
 │   ├── main.py            # Archivo principal de FastAPI
@@ -37,4 +37,4 @@ fastapi-crud-example/
 ├── requirements.txt       # Dependencias del proyecto
 ├── requirements-dev.txt   # Dependencias para desarrollo y testing
 └── README.md              # Descripción del proyecto
-´´´
+```
